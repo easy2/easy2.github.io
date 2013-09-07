@@ -1,5 +1,5 @@
-title:            Easy2 Engineering
-description:      create - grow - solve
+title:            engineering @ easy2
+description:      solve - create - grow
 logo:             easy2-Engineering-full-color.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
@@ -11,11 +11,12 @@ owner:
   avatar:         bio-photo.jpg
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter:        http://twitter.com/easy2tech
+  facebook:       http://www.facebook.com/easy2tech
+  github:         http://github.com/easy2
   stackexchange:  
-  linkedin:       
+  linkedin:       http://www.linkedin.com/company/easy2-technologies
+  pinterest:      http://pinterest.com/easy2tech
   instagram:      
   flickr:         
   tumblr:         
@@ -37,8 +38,8 @@ links:
     url: /articles
   - title: Theme Setup
     url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
+  - title: easy2.com
+    url: http://www.easy2.com
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

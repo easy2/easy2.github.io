@@ -17,7 +17,7 @@ body {
 	ul {
 		display: inline-block;
 		vertical-align: top;
-		margin: 0 0 50px;
+		margin: 0 0 10px;
 		padding: 4px 20px;
 		background-color: @black;
 		.rounded(0 0 10px 10px);
@@ -124,6 +124,8 @@ body {
 	    animation-delay: .05s;
 	    border: 4px solid @white;
 //	    .rounded(100px);
+    .border-radius(0, 80px, 80px, 0);
+    background-color: @white;
 		@media @medium {
 			width: 368px; //150px;
 			height: 150px;
@@ -228,6 +230,23 @@ span + .entry-title {
 	@media @large {
 		max-width: 800px;
 		.font-rem(68);
+	}
+}
+.entry-description {
+  margin-top: -20px;
+  font-family: @alt-font;
+	font-style: italic;
+	.font-rem(16);
+	font-weight: 400;
+  max-width: 100%;
+  text-align: center;
+	a {
+		color: @black;
+		text-decoration: underline;
+	}
+	@media @medium {
+    margin-top: -30px;
+		.font-rem(20);
 	}
 }
 .entry-wrapper {

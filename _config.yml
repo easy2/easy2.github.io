@@ -9,7 +9,7 @@ disqus_shortname:
 owner:
   name:           Easy2 Technologies
   avatar:         bio-photo.jpg
-  email:          you@email.com
+  email:          engineering@easy2.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        easy2tech
   facebook:       easy2tech
@@ -32,14 +32,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Engineering
     url: /
-  - title: About
-    url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
   - title: easy2.com
     url: http://www.easy2.com
     external: true

@@ -10,6 +10,7 @@ class Post < Thor
     create_file "_posts/#{(date + '-' + title).parameterize}.md", <<-eos
 ---
 layout: post
+author: 
 title: #{title}
 description: A description
 modified: #{date}
@@ -19,7 +20,8 @@ image:
   credit:
   creditlink:
   feature:
-comments: true
+comments: false
+notes:
 ---
 
     eos
